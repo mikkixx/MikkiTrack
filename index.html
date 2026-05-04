@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Главная страница</title>
 </head>
 <body>
@@ -21,7 +24,19 @@
         <img src="./img/profile.png" alt="" id="avatar">
     </header>
     <main>
-
+        <div class="banner">
+            <h1>Отслеживайте посылки в реальном времени!</h1>
+            <p>Просто введите трек-номер вашей посылки в поисковую строку.</p>
+            <div class="search-form">
+                <div class="label">
+                    <label for="search">Введите трек-номер:</label>
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="Например: TRK-8842910" id="search">
+                    <button type="submit">Отследить</button>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <nav class="footer">
