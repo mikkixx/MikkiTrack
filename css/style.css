@@ -259,6 +259,9 @@ select {
     display: flex;
     flex-direction: column;
 }
+.first-column > p{
+    color:#303030;
+}
 .second-column{
     color:#5E7255;
     width: 55%;
@@ -357,6 +360,7 @@ select {
     gap: 16px;
 }
 .first-column1 > p{
+    color:#303030;
     margin: 0;
     padding: 5px 0;
 }
@@ -404,4 +408,16 @@ select {
 .buttons > button:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+.gottedboxes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.gottedboxes > h2{
+    font-size: 32px;
+    color:#303030;
 }
